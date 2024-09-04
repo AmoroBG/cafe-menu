@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Utilities */
+hr {
+  border: 2px solid coral;
+  margin: 1rem 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: cursive;
+}
+h1,
+h2 {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+h2 {
+  font-family: fantasy;
+}
+img {
+  width: 2.5rem;
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: coral;
+}
+
+.container {
+  background-color: burlywood;
+  width: 25rem;
+  margin: 5rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+}
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+li :nth-child(1) {
+  flex: 1;
+}
+li::marker {
+  font-size: 2rem;
+  color: coral;
+}
